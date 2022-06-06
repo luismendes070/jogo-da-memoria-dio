@@ -1,7 +1,5 @@
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 // document.getElementById('idcard').style.property = '.card';
-
-// ReferenceError: document is not defined
-// https://pt.stackoverflow.com/questions/376042/referenceerror-document-is-not-defined-no-queryselector
 const cards = document.querySelectorAll('.card');
 let hasFlippedCard = false;
 let firstCard, secondCard;
@@ -72,3 +70,5 @@ function resetBoard() {
 cards.forEach((card) => {
   card.addEventListener("click", flipCard);
 });
+
+},{}]},{},[1]);

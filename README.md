@@ -11,3 +11,6 @@ Esse é o repositório da nossa aula de Javascript, na qual vamos fazer um jogo 
 
 
 ## 🚀 Let's code! 🚀
+
+browserify script.js -o bundle.js
+

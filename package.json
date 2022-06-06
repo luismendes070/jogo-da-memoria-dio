@@ -1,0 +1,24 @@
+{
+  "name": "jogo-da-memoria-dio",
+  "version": "1.0.0",
+  "description": "Esse é o repositório da nossa aula de Javascript, na qual vamos fazer um jogo da memória com a temática de Super Mario!",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "build": "browserify script.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luismendes070/jogo-da-memoria-dio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luismendes070/jogo-da-memoria-dio/issues"
+  },
+  "homepage": "https://github.com/luismendes070/jogo-da-memoria-dio#readme",
+  "dependencies": {
+    "uniq": "^1.0.1"
+  }
+}
